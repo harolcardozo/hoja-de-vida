@@ -2,3 +2,34 @@
     border-radius: 50%;
     width: 200px ; height: 250px;
 }
+
+
+#img {
+    border-radius: 50%;
+    width: 200px ; height: 250px;       /*ESTA ETIQUETA FUNCIONA PARA LA CONFICURACION DE LA IMAGEN "CIRCULAR" */
+}
+
+body {
+    background-color: rgb(240, 255, 255);
+    }       /* ESTA ETIQUETA DE ESTILO SE MANEJA PARA CAMBIAR EN FONDO DE LA PAGINA WEB*/
+
+    h2{color: black;
+        
+    }
+
+    .container{
+       display: flex;/* display Usa Flexbox para alinear las imágenes  o elementos en una fila */
+
+    } 
+    .vertical-box{
+        width: 260px; /* Ancho del contenedor vertical */
+        height: 150vh;  /* Altura del contenedor igual a la altura de la ventana */
+        background-color: silver; /* Color de fondo del contenedor vertical */
+        padding: 10px;/* Espaciado interno */
+    } 
+
+    .flex-container {
+        display: flex; /* display Usa Flexbox para alinear las imágenes  o elementos en una fila */
+        gap: 50px; /*gap Espacio entre las imágenes */
+    }  
+        
