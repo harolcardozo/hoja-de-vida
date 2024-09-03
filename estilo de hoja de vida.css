@@ -23,13 +23,81 @@ body {
     } 
     .vertical-box{
         width: 260px; /* Ancho del contenedor vertical */
-        height: 150vh;  /* Altura del contenedor igual a la altura de la ventana */
+        height: 115vh;  /* Altura del contenedor igual a la altura de la ventana */
         background-color: silver; /* Color de fondo del contenedor vertical */
         padding: 10px;/* Espaciado interno */
     } 
 
-    .flex-container {
-        display: flex; /* display Usa Flexbox para alinear las imágenes  o elementos en una fila */
-        gap: 50px; /*gap Espacio entre las imágenes */
-    }  
-        
+
+
+       
+    
+      .item {
+        height: 70px;
+        width:800px;
+        position: absolute;
+        top: 0%;
+        left: 17%;
+        bottom: 20%;
+        right: 20%;
+        background-color: silver;
+
+      } 
+
+    
+      .cuadro{
+        height: 150px;
+        width:800px;
+        position: absolute;
+        top: 15%;
+        left: 17%;
+        bottom: 20%;
+        right: 20%;
+        background-color: silver;
+
+      } 
+   
+
+ 
+      .cuadro-1{
+        height: 150px;
+        width:800px;
+        position: absolute;
+        top: 35%;
+        left: 17%;
+        bottom: 20%;
+        right: 20%;
+        background-color: silver;
+
+      } 
+   
+      .cuadro-2{
+        height: 280px;
+        width:800px;
+        position: absolute;
+        top: 55%;
+        left: 17%;
+        bottom: 20%;
+        right: 20%;
+        background-color: silver;
+
+      } 
+
+      .cuadro-3{
+        height: 280px;
+        width:800px;
+        position: absolute;
+        top: 90%;
+        left: 17%;
+        bottom: 20%;
+        right: 20%;
+        background-color: silver;
+
+      } 
+
+      .fondo-imagen {
+        background-image: url('https://www.innovasas.co/assets/images/sig-1-403x323.jpg');
+        background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+        background-position: center; /* Centra la imagen en el contenedor */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+    }
